@@ -1,0 +1,26 @@
+/* _colors-and-mix.scss */
+
+$primary-color: #B163A3;
+$offwhite: #f6f0e5;
+$background-shade: #dfcfbe;
+$fontshade: #302f2f;
+$primary-color-light: lighten( $primary-color, 10% );
+$primary-color-lighter: lighten( $primary-color, 20% );
+$primary-color-dark: darken( $primary-color, 10% );
+$primary-color-darker: darken( $primary-color, 20% );
+$circlesize: 200px;
+$circlesize-prime: ($circlesize + 20px);
+
+@mixin circle($circlesize){
+    margin-right:auto;
+    margin-left:auto;
+     height:$circlesize;
+     width:$circlesize;
+     border-radius: $circlesize;
+     -moz-border-radius: $circlesize;
+     -webkit-border-radius: $circlesize;
+     background:$fontshade;
+     margin-bottom:10px;
+     background-image:url('../sasslearn/images/corgipuppy.jpg');
+
+}
