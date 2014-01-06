@@ -11,16 +11,39 @@ $primary-color-darker: darken( $primary-color, 20% );
 $circlesize: 200px;
 $circlesize-prime: ($circlesize + 20px);
 
-@mixin circle($circlesize){
-    margin-right:auto;
-    margin-left:auto;
-     height:$circlesize;
-     width:$circlesize;
-     border-radius: $circlesize;
-     -moz-border-radius: $circlesize;
-     -webkit-border-radius: $circlesize;
-     background:$fontshade;
-     margin-bottom:10px;
-     background-image:url('../sasslearn/images/corgipuppy.jpg');
+
+$bluetest: #2288bb;
+$bluetest-light: lighten( $bluetest, 10% );
+$bluetest-lighter: lighten( $bluetest, 20% );
+$bluetest-dark: darken( $bluetest, 10% );
+$bluetest-darker: darken( $bluetest, 20% );
+
+@mixin hexagon{
+
+    margin-top: 30px;
+    width: 104px;
+    height: 60px;
+    background-color: #6C6;
+    position: relative;
+
+        :before {
+        content: " ";
+        width: 0; height: 0;
+        border-bottom: 30px solid #6C6;
+        border-left: 52px solid transparent;
+        border-right: 52px solid transparent;
+        position: absolute;
+        top: -30px;
+            }
+
+        :after {
+            content: "";
+            width: 0;
+            position: absolute;
+            bottom: -30px;
+            border-top: 30px solid #6C6;
+            border-left: 52px solid transparent;
+            border-right: 52px solid transparent;
+        }
 
 }
