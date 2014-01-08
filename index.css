@@ -1,6 +1,6 @@
 /* _colors-and-mix.scss */
-.logobar {
-  height: 25%;
+.topbar {
+  height: 150px;
   background-color: #b163a3;
   overflow: auto;
   border-bottom: 10px solid #964b89; }
@@ -17,9 +17,10 @@
     font-size: 20px; }
 
 .core {
-  height: 800px;
+  height: 100%;
   width: 100%;
-  background-color: #1a6990; }
+  background-color: #1a6990;
+  overflow: auto; }
 
 .menulist {
   background-color: #ffa300;
@@ -36,15 +37,13 @@
     margin-bottom: 15px; }
 
 section {
-  height: 500px;
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto; }
+  height: 100%;
+  width: 100%; }
 
 .hex {
   margin-top: 35px;
-  width: 102px;
-  height: 60px;
+  width: 220px;
+  height: 120px;
   background-color: #6C6;
   position: relative; }
   .hex:before {
@@ -52,8 +51,8 @@ section {
     width: 0;
     height: 0;
     border-bottom: 30px solid #6C6;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
     position: absolute;
     top: -30px; }
   .hex:after {
@@ -62,19 +61,19 @@ section {
     position: absolute;
     bottom: -30px;
     border-top: 30px solid #6C6;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent; }
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent; }
   .hex:nth-child(even) {
     background-color: #EFC050;
     clear: left;
-    margin-left: 56px; }
+    margin-left: 115px; }
     .hex:nth-child(even):before {
       content: " ";
       width: 0;
       height: 0;
       border-bottom: 30px solid #EFC050;
-      border-left: 52px solid transparent;
-      border-right: 52px solid transparent;
+      border-left: 110px solid transparent;
+      border-right: 110px solid transparent;
       position: absolute;
       top: -30px; }
     .hex:nth-child(even):after {
@@ -83,5 +82,5 @@ section {
       position: absolute;
       bottom: -30px;
       border-top: 30px solid #EFC050;
-      border-left: 52px solid transparent;
-      border-right: 52px solid transparent; }
+      border-left: 110px solid transparent;
+      border-right: 110px solid transparent; }

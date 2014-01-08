@@ -1,8 +1,9 @@
 
 .core{
-	height:800px;
+	height:100%;
 	width:100%;
 	background-color: $bluetest-dark;
+	overflow:auto;
 	
 }
 .menulist{
@@ -25,17 +26,15 @@
 
 }
 section{
-	height:500px;
-	width:500px;
-	margin-left:auto;
-	margin-right:auto;
+	height:100%;
+	width:100%;
 }
 
 
 .hex {
     margin-top: 35px;
-    width: 102px;
-    height: 60px;
+    width: 220px;
+    height: 120px;
     background-color: #6C6;
     position: relative;
 
@@ -45,8 +44,8 @@ section{
 		    content: " ";
 		    width: 0; height: 0;
 		    border-bottom: 30px solid #6C6;
-		    border-left: 52px solid transparent;
-		    border-right: 52px solid transparent;
+		    border-left: 110px solid transparent;
+		    border-right: 110px solid transparent;
 		    position: absolute;
 		    top: -30px;
 		}
@@ -57,21 +56,21 @@ section{
 		    position: absolute;
 		    bottom: -30px;
 		    border-top: 30px solid #6C6;
-		    border-left: 52px solid transparent;
-		    border-right: 52px solid transparent;
+		    border-left: 110px solid transparent;
+		    border-right: 110px solid transparent;
 		}
 
 		&:nth-child(even){
 		background-color: #EFC050;
 		clear:left;
-		margin-left:56px;
+		margin-left:115px;
 
 		   	&:before {
 			    content: " ";
 			    width: 0; height: 0;
 			    border-bottom: 30px solid #EFC050;
-			    border-left: 52px solid transparent;
-			    border-right: 52px solid transparent;
+			    border-left: 110px solid transparent;
+			    border-right: 110px solid transparent;
 			    position: absolute;
 			    top: -30px;
 			}
@@ -82,8 +81,8 @@ section{
 			    position: absolute;
 			    bottom: -30px;
 			    border-top: 30px solid #EFC050;
-			    border-left: 52px solid transparent;
-			    border-right: 52px solid transparent;
+			    border-left: 110px solid transparent;
+			    border-right: 110px solid transparent;
 			}
 
     	 	
