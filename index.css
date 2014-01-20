@@ -5,7 +5,7 @@
   src: local("Raleway"), local("Raleway"), url("fonts/webfonts/raleway_thin-webfont.woff") format("woff"), url("fonts/webfonts/raleway_thin-webfont.otf") format("opentype"), url("fonts/webfonts/raleway_thin-webfont.svg") format("svg"), url("fonts/webfonts/raleway_thin-webfont.ttf") format("true-type font"); }
 
 header {
-  height: 450px;
+  height: 480px;
   width: 100%;
   background-color: #c2ddc4;
   background-image: url("images/pixel_weave/pixel_weave_@2X.png");
@@ -42,9 +42,6 @@ header {
     font-size: 25px;
     padding-top: 35%; }
 
-.content {
-  width: 90%; }
-
 body {
   height: 100%;
   width: 100%;
@@ -74,7 +71,3 @@ body {
     -moz-box-shadow: 0 4px 4px #ccc;
     -webkit-box-shadow: 0 4px 4px #ccc;
     box-shadow: 0 4px 4px #ccc; }
-
-.torso {
-  height: 800px;
-  width: 100%; }
