@@ -20,21 +20,30 @@ body {
 
 
 	ul li{
-		float:none;
-		display:block;
-		text-align:left;
-		height:20px;
-		padding-top:10px;
-		padding-bottom:5px;
-		padding-left:20px;
-		background-color:rgba(32,32,32,.3);
-		margin-left: 20%;
-		margin-bottom:20px;
+			float:none;
+			display:block;
+			text-align:left;
+			height:20px;
+			padding-top:10px;
+			padding-bottom:5px;
+			padding-left:20px;
+			background-color:rgba(32,32,32,.3);
+			margin-left: 20%;
+			margin-bottom:20px;
+			-moz-box-shadow: 0 4px 4px #ccc;
+   			-webkit-box-shadow: 0 4px 4px #ccc;
+    		box-shadow: 0 4px 4px #ccc;
 
-		}
+
+			}
+	
 }
 
+.torso{
 
+	height:800px;
+	width:100%;
+}
 
 
 

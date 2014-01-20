@@ -1,5 +1,5 @@
 header{
-	height:400px;
+	height:450px;
 	width:100%;
 	background-color: $primary-color-light;
 	background-image: url("images/pixel_weave/pixel_weave_@2X.png");
@@ -28,6 +28,12 @@ header{
 	margin-right:auto;
 	margin-top:50px;
 	background-color: rgba(0,0,0,.2);
+
+
+	border-radius: 50%;   
+    box-shadow: 0px 0px 0px 16px  #f1f1f1;
+    border: 16px solid #f9f9f9;
+
 
 		.logotext{
 			text-align:center;
