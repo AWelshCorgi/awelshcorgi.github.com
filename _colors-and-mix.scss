@@ -1,6 +1,6 @@
 /* _colors-and-mix.scss */
 
-$primary-color: #B163A3;
+$primary-color: #a1cba4;
 $offwhite: #f6f0e5;
 $background-shade: #dfcfbe;
 $fontshade: #302f2f;
@@ -17,5 +17,25 @@ $bluetest-light: lighten( $bluetest, 10% );
 $bluetest-lighter: lighten( $bluetest, 20% );
 $bluetest-dark: darken( $bluetest, 10% );
 $bluetest-darker: darken( $bluetest, 20% );
+
+
+@mixin circle-base($circlediameter){
+
+	 height:$circlediameter;
+     width:$circlediameter;
+     border-radius: $circlediameter;
+     -moz-border-radius: $circlediameter;
+     -webkit-border-radius: $circlediameter;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('fonts/webfonts/raleway_thin-webfont.eot');
+  src: local('Raleway'), local('Raleway'),
+    url("fonts/webfonts/raleway_thin-webfont.woff") format("woff"),
+    url("fonts/webfonts/raleway_thin-webfont.otf") format("opentype"),
+    url("fonts/webfonts/raleway_thin-webfont.svg") format("svg"),
+    url("fonts/webfonts/raleway_thin-webfont.ttf") format("true-type font");
+}
+
 
 

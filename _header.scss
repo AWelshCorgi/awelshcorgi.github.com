@@ -1,22 +1,47 @@
-.topbar{
-	height:150px;
+header{
+	height:400px;
 	width:100%;
-	background-color: $primary-color;
+	background-color: $primary-color-light;
+	background-image: url("images/pixel_weave/pixel_weave_@2X.png");
+	background-repeat: repeat;
 	overflow:auto;
-	border-bottom: 10px solid $primary-color-dark;
+	border-bottom: 10px solid $primary-color;
 }
-.logoprime{
+
+
+
+.capsule{
+	width:90%;
+		margin-right:auto;
+		margin-left:auto;
+		h1{
+			text-align:center;
+			margin-top:30px;
+			font-style:bold;
+			font-size:35px;
+		}
+	}
+.circlelogo{
+	@include circle-base(150px);
+	float:none;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:20px;
-	width:80px;
-	padding:20px;
+	margin-top:50px;
 	background-color: rgba(0,0,0,.2);
 
-	.logotext{
-		text-align:center;
-		font-size: 20px;
+		.logotext{
+			text-align:center;
+			font-size: 25px;
+	  	padding-top:35%;
 
-	}
-	
+
+		}
+
 }
+
+
+.content{
+	width:90%;
+}
+
+
