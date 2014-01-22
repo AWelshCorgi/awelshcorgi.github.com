@@ -109,4 +109,5 @@ body {
         margin-bottom: 5px;
         font-weight: bold; }
       .content .row .innards p {
-        line-height: 120%; }
+        line-height: 120%;
+        font-weight: bold; }
