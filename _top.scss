@@ -1,7 +1,7 @@
 header{
 	height:480px;
 	width:100%;
-	background-color: $primary-color-light;
+	background-color: #f9f9f9;
 	background-image: url("images/pixel_weave/pixel_weave_@2X.png");
 	background-repeat: repeat;
 	overflow:auto;
@@ -41,6 +41,54 @@ header{
 
 		}
 
+}
+
+
+body {
+    height:100%;
+	width:100%;
+	background-color: $primary-color;
+	overflow:auto;
+	font-family: "Raleway";
+	.content{
+		width:90%;
+	}
+}
+
+.topnav{
+	height:100%;
+	padding-top:20px;
+	padding-left:0px;
+	padding-right:0px;
+	background-color: $primary-color-lighter;
+		@media(min-width:600px){
+			
+
+		}
+
+
+
+
+
+
+	ul li{
+			float:none;
+			display:block;
+			text-align:left;
+			height:20px;
+			padding-top:10px;
+			padding-bottom:5px;
+			padding-left:20px;
+			background-color:rgba(32,32,32,.3);
+			margin-left: 20%;
+			margin-bottom:20px;
+			-moz-box-shadow: 0 4px 4px #ccc;
+   			-webkit-box-shadow: 0 4px 4px #ccc;
+    		box-shadow: 0 4px 4px #ccc;
+
+
+			}
+	
 }
 
 
