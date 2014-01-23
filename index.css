@@ -39,6 +39,7 @@ header {
   border: 16px solid #f9f9f9; }
   .circlelogo .logotext {
     text-align: center;
+    font-weight: bold;
     font-size: 25px;
     padding-top: 33%; }
 
