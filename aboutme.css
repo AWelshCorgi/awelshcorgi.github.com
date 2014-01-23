@@ -39,8 +39,9 @@ header {
   border: 16px solid #f9f9f9; }
   .circlelogo .logotext {
     text-align: center;
+    font-weight: bold;
     font-size: 25px;
-    padding-top: 35%; }
+    padding-top: 33%; }
 
 body {
   height: 100%;
@@ -72,7 +73,35 @@ body {
     -webkit-box-shadow: 0 4px 4px #ccc;
     box-shadow: 0 4px 4px #ccc; }
 
+a {
+  font-weight: bold; }
+
 .content {
   width: 80%;
   margin-left: auto;
   margin-right: auto; }
+  .content .row {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 100%; }
+
+.innards {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5% 5% 5% 5%;
+  background-color: #c2ddc4;
+  -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  border: 10px solid #f9f9f9; }
+  .innards h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 5px;
+    font-weight: bold; }
+  .innards p {
+    line-height: 120%;
+    font-weight: bold; }
+
+/* if something isn't working, remember to save this again! */

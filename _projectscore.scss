@@ -1,26 +1,21 @@
 .circsite{
-			margin-left:auto;
-			margin-right:auto;
-			@include circle-base(200px);
-			background-image: url("http://placekitten.com/200/200");
-			margin-bottom:5px;
-			border-radius: 100%;   
-		    box-shadow: 0px 0px 0px 10px  #f9f9f9;
-		    border: 10px solid $primary-color-light;
-		}
-
-.innards{
-	width:80%;
-	margin-right:auto;
 	margin-left:auto;
-	padding: 5% 5% 5% 5%;
-	background-color: $primary-color-light;
-	-moz-box-shadow: 0 2px 2px rgba(0,0,0,.2);
-	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.2);
-	box-shadow: 0 2px 2px rgba(0,0,0,.2);
-	border: 10px solid #f9f9f9;
+	margin-right:auto;
+	@include circle-base(200px);
+	background-image: url("http://placekitten.com/200/200");
+	margin-bottom:5px;
+	border-radius: 100%;   
+    box-shadow: 0px 0px 0px 10px  #f9f9f9;
+    border: 10px solid $primary-color-light;
+
 
 }
+.procore{
+	background-color: $primary-color-light;
+}
+
+
+
 
 
 
