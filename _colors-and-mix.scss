@@ -22,10 +22,10 @@ $bluetest-darker: darken( $bluetest, 20% );
 @mixin circle-base($circlediameter){
 
 	 height:$circlediameter;
-     width:$circlediameter;
-     border-radius: $circlediameter;
-     -moz-border-radius: $circlediameter;
-     -webkit-border-radius: $circlediameter;
+   width:$circlediameter;
+   border-radius: 50%;
+   -moz-border-radius: 50%;
+   -webkit-border-radius: 50%;
 }
 @font-face {
   font-family: 'Raleway';
