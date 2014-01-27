@@ -14,13 +14,13 @@ header {
   border-bottom: 10px solid #a1cba4; }
 
 p {
-  line-height: 120%;
   font-weight: bold; }
 
 .capsule {
   width: 90%;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  max-width: 600px; }
   .capsule h1 {
     text-align: center;
     margin-top: 30px;
@@ -85,25 +85,27 @@ a {
   margin-right: auto; }
   .content .row {
     margin-top: 40px;
-    margin-bottom: 40px;
-    height: 100%;
-    background-color: #f91b23; }
+    margin-bottom: 40px; }
 
-.callbox {
+.call2act {
   margin-right: auto;
   margin-left: auto;
-  height: 50px;
-  padding: 5% 5% 5% 5%;
   -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-  border: 10px solid #f9f9f9; }
-  .callbox h2 {
+  border: 10px solid #f9f9f9;
+  background-image: url("images/pixel_weave/pixel_weave_@2X.png");
+  background-repeat: repeat; }
+
+.buttonpart {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  padding-top: 1px; }
+  .buttonpart h2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
     text-align: center;
     font-size: 3em;
     font-weight: bold; }
-
-.indexcall {
-  background-color: rgba(0, 0, 0, 0.4); }
 
 /* if something isn't working, remember to save this again! */

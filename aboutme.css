@@ -13,10 +13,14 @@ header {
   overflow: auto;
   border-bottom: 10px solid #a1cba4; }
 
+p {
+  font-weight: bold; }
+
 .capsule {
   width: 90%;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  max-width: 600px; }
   .capsule h1 {
     text-align: center;
     margin-top: 30px;
@@ -34,7 +38,6 @@ header {
   margin-right: auto;
   margin-top: 50px;
   background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 50%;
   box-shadow: 0px 0px 0px 16px  #f1f1f1;
   border: 16px solid #f9f9f9; }
   .circlelogo .logotext {
@@ -77,31 +80,21 @@ a {
   font-weight: bold; }
 
 .content {
-  width: 80%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto; }
   .content .row {
     margin-top: 40px;
-    margin-bottom: 40px;
-    height: 100%; }
+    margin-bottom: 40px; }
 
-.innards {
-  width: 80%;
+.call2act {
   margin-right: auto;
   margin-left: auto;
-  padding: 5% 5% 5% 5%;
-  background-color: #c2ddc4;
   -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-  border: 10px solid #f9f9f9; }
-  .innards h2 {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 5px;
-    font-weight: bold; }
-  .innards p {
-    line-height: 120%;
-    font-weight: bold; }
+  border: 10px solid #f9f9f9;
+  background-image: url("images/pixel_weave/pixel_weave_@2X.png");
+  background-repeat: repeat; }
 
 /* if something isn't working, remember to save this again! */
