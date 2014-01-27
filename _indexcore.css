@@ -1,2 +1,8 @@
 .indexcall {
-  background-color: rgba(0, 0, 0, 0.4); }
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5% 5% 5% 5%;
+  background-color: #f9f9f9;
+  background-image: url("images/pixel_weave/pixel_weave_@2X.png");
+  background-repeat: repeat; }
