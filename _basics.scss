@@ -8,7 +8,7 @@ header{
 	border-bottom: 10px solid $primary-color;
 }
 p{ 
-
+		line-height: 120%;
 		font-weight: bold;
 
 	}
@@ -19,7 +19,6 @@ p{
 	width:90%;
 		margin-right:auto;
 		margin-left:auto;
-		max-width:600px;
 		h1{
 			text-align:center;
 			margin-top:30px;
@@ -56,9 +55,9 @@ body {
 	background-color: $primary-color;
 	overflow:auto;
 	font-family: "Raleway";
-		.content{
-			width:90%;
-		}
+	.content{
+		width:90%;
+	}
 }
 
 .topnav{
@@ -100,6 +99,7 @@ a{
 		font-weight:bold;
 	}
 
+
 .content{
 	width:75%;
 	margin-left:auto;
@@ -108,24 +108,29 @@ a{
 	.row{
 	margin-top:40px;
 	margin-bottom:40px;
+	height:100%;
+	background-color: #f91b23;
 
 	}
 }
 
-
-
-
-.call2act{
-
-
+.callbox{
 	margin-right:auto;
 	margin-left:auto;
+	height:50px;
+	padding: 5% 5% 5% 5%;
 	-moz-box-shadow: 0 2px 2px rgba(0,0,0,.2);
 	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.2);
 	box-shadow: 0 2px 2px rgba(0,0,0,.2);
 	border: 10px solid #f9f9f9;
-	background-image: url("images/pixel_weave/pixel_weave_@2X.png");
-	background-repeat: repeat;
 
-	
+
+
+	h2{
+		text-align: center;
+		font-size: 3em;
+		font-weight: bold;
+
+	}
+
 }
