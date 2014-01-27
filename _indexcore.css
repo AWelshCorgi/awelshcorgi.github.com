@@ -1,10 +1,8 @@
-.buttonpart {
-  background-color: rgba(0, 0, 0, 0.2);
-  height: 100%;
-  padding-top: 1px; }
-  .buttonpart h2 {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    text-align: center;
-    font-size: 3em;
-    font-weight: bold; }
+.indexcall {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5% 5% 5% 5%;
+  background-color: #f9f9f9;
+  background-image: url("images/pixel_weave/pixel_weave_@2X.png");
+  background-repeat: repeat; }
