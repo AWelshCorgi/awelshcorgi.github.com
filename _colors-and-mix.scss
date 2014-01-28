@@ -1,27 +1,29 @@
 /* _colors-and-mix.scss */
 
-$primary-color: #a1cba4;
+
 $offwhite: #f6f0e5;
-$background-shade: #dfcfbe;
 $fontshade: #302f2f;
-$primary-color-light: lighten( $primary-color, 10% );
-$primary-color-lighter: lighten( $primary-color, 20% );
-$primary-color-dark: darken( $primary-color, 10% );
-$primary-color-darker: darken( $primary-color, 20% );
 $circlesize: 200px;
 $circlesize-prime: ($circlesize + 20px);
 
 
-$bluetest: #2288bb;
-$bluetest-light: lighten( $bluetest, 10% );
-$bluetest-lighter: lighten( $bluetest, 20% );
-$bluetest-dark: darken( $bluetest, 10% );
-$bluetest-darker: darken( $bluetest, 20% );
+$goghorange: rgb(140, 116, 72);
+$goghorange-light: lighten( $goghorange, 10% );
+$goghorange-lighter: lighten( $goghorange, 20% );
+$goghorange-lightest: lighten( $goghorange, 30% );
+$goghorange-dark: darken( $goghorange, 10% );
+$goghorange-darker: darken( $goghorange, 20% );
+
+$goghblue: rgb(179, 201, 205);
+$goghblue-light: lighten( $goghblue, 10% );
+$goghblue-lighter: lighten( $goghblue, 20% );
+$goghblue-dark: darken( $goghblue, 10% );
+$goghblue-darker: darken( $goghblue, 20% );
 
 @mixin shadow-palette($shadowsize){
-  -moz-box-shadow: $shadowsize $shadowsize $shadowsize $shadowsize rgba(0,0,0,.3);
-  -webkit-box-shadow:  $shadowsize $shadowsize $shadowsize $shadowsize rgba(0,0,0,.3);
-  box-shadow:  $shadowsize $shadowsize $shadowsize $shadowsize rgba(0,0,0,.3);
+  -moz-box-shadow: $shadowsize 6px 2px $shadowsize rgba(0,0,0,.1);
+  -webkit-box-shadow:  $shadowsize 6px 2px $shadowsize rgba(0,0,0,.1);
+  box-shadow:  $shadowsize 6px 2px $shadowsize rgba(0,0,0,.1);
 }
 
 @mixin circle-base($circlediameter){

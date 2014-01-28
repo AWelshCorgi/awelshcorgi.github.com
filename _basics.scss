@@ -5,32 +5,32 @@ header{
 	background-image: url("images/pixel_weave/pixel_weave_@2X.png");
 	background-repeat: repeat;
 	overflow:auto;
-	border-bottom: 10px solid $primary-color;
 }
 
 
 
 .capsule{
 	width:90%;
-		margin-right:auto;
-		margin-left:auto;
+	max-width:600px;
+	margin-right:auto;
+	margin-left:auto;
 		h1{
 			text-align:center;
 			margin-top:30px;
 			font-style:bold;
 			font-size:35px;
 		}
-	}
+}
+
 .circlelogo{
 	@include circle-base(150px);
 	float:none;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:50px;
-	background-color: rgba(0,0,0,.2);
-	border-radius: 50%;   
-    box-shadow: 0px 0px 0px 16px  #f1f1f1;
-    border: 16px solid #f9f9f9;
+	background-color: rgba($goghblue-dark,.2);
+    box-shadow: 0px 0px 0px 16px  rgba($goghorange-light,.3);
+    border: 16px solid #f1f1f1;
 
 
 		.logotext{
@@ -48,21 +48,20 @@ header{
 body {
     height:100%;
 	width:100%;
-	background-color: $primary-color;
+	background-image: url("images/pixel_weave/pixel_weave_@2X.png");
 	overflow:auto;
 	font-family: "Raleway";
-	.content{
-		width:90%;
-	}
+	color: $fontshade;
+	
 }
 
+
+
 .topnav{
-	@include shadow-palette(1px);
+	border: 0px 5px solid rgba(0,0,0,.3);
 	height:100%;
 	padding-top:20px;
-	padding-left:0px;
-	padding-right:0px;
-	background-color: $primary-color-lighter;
+	background-color: $goghblue-light;
 
 	ul li{
 		@include shadow-palette(2px);
@@ -73,7 +72,7 @@ body {
 			padding-top:10px;
 			padding-bottom:5px;
 			padding-left:20px;
-			background-color:rgba(32,32,32,.3);
+			background-color:$goghorange-lightest;
 			margin-left: 20%;
 			margin-bottom:20px;
 
@@ -85,26 +84,36 @@ a{
 	}
 
 
-.content{
-	width:80%;
-	margin-left:auto;
+.middlepattern{
+	height:100%;
 	margin-right:auto;
+	margin-left:auto;
+	background-color: rgba($goghorange-light, 0.3);
+	border-left: 5px solid #f9f9f9;
+	border-right: 5px solid #f9f9f9;
+	border-bottom: 5px solid #f9f9f9;
+	padding-top:40px;
+	margin-bottom:10%;
+	@media (min-width: 500px){
 
-	.row{
-	margin-top:40px;
-	margin-bottom:40px;
+		width:80%;
+	}
+
+}
+.row{
+	margin-bottom:45px;
 	height:100%;
 
 	}
-}
+
 
 .innards{
-	@include shadow-palette(3px);
-	width:80%;
+	@include shadow-palette(2px);
+	width:75%;
 	margin-right:auto;
 	margin-left:auto;
 	padding: 5% 5% 5% 5%;
-	background-color: $primary-color-light;
+	background-color: $goghblue-light;
 	border: 10px solid #f9f9f9;
 
 
