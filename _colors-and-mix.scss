@@ -18,6 +18,11 @@ $bluetest-lighter: lighten( $bluetest, 20% );
 $bluetest-dark: darken( $bluetest, 10% );
 $bluetest-darker: darken( $bluetest, 20% );
 
+@mixin shadow-palette($shadowsize){
+  -moz-box-shadow: $shadowsize $shadowsize $shadowsize $shadowsize rgba(0,0,0,.3);
+  -webkit-box-shadow:  $shadowsize $shadowsize $shadowsize $shadowsize rgba(0,0,0,.3);
+  box-shadow:  $shadowsize $shadowsize $shadowsize $shadowsize rgba(0,0,0,.3);
+}
 
 @mixin circle-base($circlediameter){
 
