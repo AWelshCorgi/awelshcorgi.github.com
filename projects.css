@@ -4,88 +4,129 @@
   src: url("fonts/webfonts/raleway_thin-webfont.eot");
   src: local("Raleway"), local("Raleway"), url("fonts/webfonts/raleway_thin-webfont.woff") format("woff"), url("fonts/webfonts/raleway_thin-webfont.otf") format("opentype"), url("fonts/webfonts/raleway_thin-webfont.svg") format("svg"), url("fonts/webfonts/raleway_thin-webfont.ttf") format("true-type font"); }
 
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url("images/bedge_grunge/bedge_grunge_@2X.png");
+  overflow: auto;
+  font-family: "Raleway";
+  color: #302f2f;
+  background: -moz-linear-gradient(left top 315deg, #ffcc6f, #b5dfb5);
+  background: -webkit-gradient(linear, left top, right bottom, from(#ffcc6f), to(#b5dfb5)); }
+
 header {
   height: 480px;
   width: 100%;
   background-color: #f9f9f9;
-  background-image: url("images/pixel_weave/pixel_weave_@2X.png");
+  background-image: url("images/bedge_grunge/bedge_grunge_@2X.png");
   background-repeat: repeat;
   overflow: auto; }
-
-.capsule {
-  width: 90%;
-  max-width: 600px;
-  margin-right: auto;
-  margin-left: auto; }
-  .capsule h1 {
-    text-align: center;
+  @media (min-width: 600px) {
+    header {
+      height: 300px; } }
+  header .circlelogo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
-    font-style: bold;
-    font-size: 35px; }
-
-.circlelogo {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  float: none;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  background-color: rgba(148, 179, 185, 0.2);
-  box-shadow: 0px 0px 0px 16px rgba(171, 143, 92, 0.3);
-  border: 16px solid #f1f1f1; }
-  .circlelogo .logotext {
-    text-align: center;
-    font-weight: bold;
-    font-size: 25px;
-    padding-top: 33%; }
-
-body {
-  height: 100%;
-  width: 100%;
-  background-image: url("images/pixel_weave/pixel_weave_@2X.png");
-  overflow: auto;
-  font-family: "Raleway";
-  color: #302f2f; }
+    background-color: rgba(145, 208, 145, 0.2);
+    box-shadow: 0px 0px 0px 16px rgba(255, 222, 162, 0.3);
+    border: 16px solid #f1f1f1; }
+    @media (min-width: 600px) {
+      header .circlelogo {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        margin-top: 40px;
+        margin-left: 30px;
+        float: left;
+        box-shadow: 0px 0px 0px 10px rgba(255, 222, 162, 0.3);
+        border: 10px solid #f1f1f1; } }
+    header .circlelogo .logotext {
+      text-align: center;
+      font-weight: bold;
+      font-size: 23px;
+      padding-top: 41%; }
+      @media (min-width: 600px) {
+        header .circlelogo .logotext {
+          font-size: 20px; } }
+  header .capsule {
+    width: 90%;
+    max-width: 430px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold; }
+    @media (min-width: 600px) {
+      header .capsule {
+        padding-left: 40px;
+        margin-top: 100px; } }
+    header .capsule h1 {
+      text-align: center;
+      margin-top: 30px;
+      font-style: bold;
+      font-size: 35px; }
+      @media (min-width: 600px) {
+        header .capsule h1 {
+          margin-top: 50px; } }
 
 .topnav {
-  border: 0px 5px solid rgba(0, 0, 0, 0.3);
-  height: 100%;
-  padding-top: 20px;
-  background-color: #d2dfe1; }
-  .topnav ul li {
-    -moz-box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
-    box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
-    float: none;
-    display: block;
-    text-align: left;
-    height: 20px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    background-color: #cebd9f;
-    margin-left: 20%;
-    margin-bottom: 20px; }
+  overflow: auto;
+  height: 100px;
+  background-color: #d9eed9;
+  border-top: 6px solid #f9f9f9;
+  border-bottom: 6px solid #f9f9f9;
+  padding-top: 10px; }
+  .topnav p {
+    font-size: 4.5em;
+    font-weight: bold;
+    padding-bottom: 20px; }
+    @media (min-width: 393px) {
+      .topnav p {
+        padding-bottom: none; } }
 
-a {
-  font-weight: bold; }
+ul li {
+  -moz-box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
+  float: right;
+  display: block;
+  text-align: left;
+  height: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  background-color: white;
+  margin-bottom: 20px; }
+  @media (min-width: 393px) {
+    ul li {
+      width: 90px;
+      height: 100%;
+      line-height: 1.5em; } }
+  ul li a {
+    font-weight: bold;
+    padding-right: 10px;
+    float: left; }
 
 .middlepattern {
   height: 100%;
   margin-right: auto;
   margin-left: auto;
-  background-color: rgba(171, 143, 92, 0.3);
-  border-left: 5px solid #f9f9f9;
-  border-right: 5px solid #f9f9f9;
-  border-bottom: 5px solid #f9f9f9;
+  background-image: url("images/bedge_grunge/bedge_grunge_@2X.png");
   padding-top: 40px;
-  margin-bottom: 10%; }
+  margin-top: 20px;
+  border-top: 6px solid #f9f9f9; }
   @media (min-width: 500px) {
     .middlepattern {
-      width: 80%; } }
+      margin-bottom: 10%;
+      width: 80%;
+      border: 8px solid #f9f9f9; } }
 
 .row {
   margin-bottom: 45px;
@@ -99,7 +140,7 @@ a {
   margin-right: auto;
   margin-left: auto;
   padding: 5% 5% 5% 5%;
-  background-color: #d2dfe1;
+  background-color: #d9eed9;
   border: 10px solid #f9f9f9; }
   .innards h2 {
     text-align: center;
@@ -121,6 +162,6 @@ a {
   background-image: url("http://placekitten.com/200/200");
   margin-bottom: 5px;
   box-shadow: 0px 0px 0px 10px  #f9f9f9;
-  border: 10px solid #d2dfe1; }
+  border: 10px solid #d9eed9; }
 
 /* if something isn't working, remember to save this again! */
