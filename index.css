@@ -1,15 +1,15 @@
 /* _colors-and-mix.scss */
 @font-face {
-  font-family: 'Raleway';
-  src: url("fonts/webfonts/raleway_thin-webfont.eot");
-  src: local("Raleway"), local("Raleway"), url("fonts/webfonts/raleway_thin-webfont.woff") format("woff"), url("fonts/webfonts/raleway_thin-webfont.otf") format("opentype"), url("fonts/webfonts/raleway_thin-webfont.svg") format("svg"), url("fonts/webfonts/raleway_thin-webfont.ttf") format("true-type font"); }
+  font-family: 'Junction';
+  src: url("fonts/Junction/webfonts/Junction-webfont.eot");
+  src: local("Junction"), local("Junction"), url("fonts/Junction/webfonts/Junction-webfont.woff") format("woff"), url("fonts/Junction/webfonts/Junction-webfont.otf") format("opentype"), url("fonts/Junction/webfonts/Junction-webfont.svg") format("svg"), url("fonts/Junction/webfonts/Junction-webfont.ttf") format("true-type font"); }
 
 body {
   height: 100%;
   width: 100%;
   background-image: url("images/bedge_grunge/bedge_grunge_@2X.png");
   overflow: auto;
-  font-family: "Raleway";
+  font-family: "Junction";
   color: #302f2f;
   background: -moz-linear-gradient(left top 315deg, #ffcc6f, #b5dfb5);
   background: -webkit-gradient(linear, left top, right bottom, from(#ffcc6f), to(#b5dfb5)); }
@@ -51,18 +51,16 @@ header {
         border: 10px solid #f1f1f1; } }
     header .circlelogo .logotext {
       text-align: center;
-      font-weight: bold;
       font-size: 23px;
       padding-top: 41%; }
       @media (min-width: 600px) {
         header .circlelogo .logotext {
-          font-size: 20px; } }
+          font-size: 10px; } }
   header .capsule {
     width: 90%;
     max-width: 430px;
     margin-right: auto;
-    margin-left: auto;
-    font-weight: bold; }
+    margin-left: auto; }
     @media (min-width: 600px) {
       header .capsule {
         padding-left: 40px;
@@ -70,7 +68,6 @@ header {
     header .capsule h1 {
       text-align: center;
       margin-top: 30px;
-      font-style: bold;
       font-size: 35px; }
       @media (min-width: 600px) {
         header .capsule h1 {
@@ -78,39 +75,58 @@ header {
 
 .topnav {
   overflow: auto;
-  height: 100px;
   background-color: #d9eed9;
   border-top: 6px solid #f9f9f9;
   border-bottom: 6px solid #f9f9f9;
   padding-top: 10px; }
-  .topnav p {
-    font-size: 4.5em;
-    font-weight: bold;
-    padding-bottom: 20px; }
-    @media (min-width: 393px) {
-      .topnav p {
-        padding-bottom: none; } }
+  @media (min-width: 600px) {
+    .topnav {
+      height: 100px; } }
 
-ul li {
+.navprime {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  width: 130px;
+  line-height: 3em;
+  padding-bottom: 10px; }
+  @media (min-width: 393px) {
+    .navprime {
+      margin-top: auto; } }
+  @media (min-width: 600px) {
+    .navprime {
+      width: 300px;
+      line-height: 2em;
+      margin-top: 30px; } }
+  .navprime li {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    list-style-type: none;
+    font-size: 20pt; }
+    @media (min-width: 600px) {
+      .navprime li {
+        display: inline; }
+        .navprime li:first-of-type {
+          margin-right: 40px; } }
+
+.smlinks {
   -moz-box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
   float: right;
   display: block;
   text-align: left;
-  height: 20px;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
-  background-color: white;
-  margin-bottom: 20px; }
+  margin-bottom: 5px;
+  background-color: white; }
   @media (min-width: 393px) {
-    ul li {
-      width: 90px;
-      height: 100%;
+    .smlinks {
+      width: 70px;
       line-height: 1.5em; } }
-  ul li a {
-    font-weight: bold;
+  .smlinks a {
     padding-right: 10px;
     float: left; }
 
@@ -145,10 +161,8 @@ ul li {
   .innards h2 {
     text-align: center;
     font-size: 2em;
-    margin-bottom: 5px;
-    font-weight: bold; }
+    margin-bottom: 5px; }
   .innards p {
-    line-height: 120%;
-    font-weight: bold; }
+    line-height: 120%; }
 
 /* if something isn't working, remember to save this again! */

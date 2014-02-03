@@ -35,13 +35,13 @@ $greenmix-darker: darken( $greenmix, 20% );
    -webkit-border-radius: 50%;
 }
 @font-face {
-  font-family: 'Raleway';
-  src: url('fonts/webfonts/raleway_thin-webfont.eot');
-  src: local('Raleway'), local('Raleway'),
-    url("fonts/webfonts/raleway_thin-webfont.woff") format("woff"),
-    url("fonts/webfonts/raleway_thin-webfont.otf") format("opentype"),
-    url("fonts/webfonts/raleway_thin-webfont.svg") format("svg"),
-    url("fonts/webfonts/raleway_thin-webfont.ttf") format("true-type font");
+  font-family: 'Junction';
+  src: url('fonts/Junction/webfonts/Junction-webfont.eot');
+  src: local('Junction'), local('Junction'),
+    url("fonts/Junction/webfonts/Junction-webfont.woff") format("woff"),
+    url("fonts/Junction/webfonts/Junction-webfont.otf") format("opentype"),
+    url("fonts/Junction/webfonts/Junction-webfont.svg") format("svg"),
+    url("fonts/Junction/webfonts/Junction-webfont.ttf") format("true-type font");
 }
 
 
