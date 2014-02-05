@@ -1,0 +1,21 @@
+.herounit {
+  width: 100%;
+  height: 100%;
+  background-color: #fcf5e7; }
+  @media screen and (min-width: 44em) {
+    .herounit {
+      overflow: hidden; } }
+  .herounit .wrapper {
+    width: 70%;
+    max-width: 650px;
+    overflow: auto;
+    margin-right: auto;
+    margin-left: auto; }
+    .herounit .wrapper .blurb {
+      box-sizing: border-box;
+      padding: 2em 1em;
+      margin-bottom: 1em; }
+      @media screen and (min-width: 600px) {
+        .herounit .wrapper .blurb {
+          float: left;
+          width: 50%; } }

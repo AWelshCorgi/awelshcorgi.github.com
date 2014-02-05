@@ -109,7 +109,7 @@ header {
       margin-top: auto; } }
   @media (min-width: 600px) {
     .navprime {
-      width: 300px;
+      width: 400px;
       line-height: 2em;
       margin-top: 30px; } }
   .navprime li {
@@ -122,8 +122,8 @@ header {
       .navprime li {
         display: inline; }
         .navprime li:first-of-type {
-          margin-right: 40px;
-          margin-left: 20px; } }
+          margin-right: 90px;
+          margin-left: 10%; } }
     .navprime li a {
       text-decoration: none; }
       .navprime li a:link {
