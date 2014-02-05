@@ -13,9 +13,12 @@
     margin-left: auto; }
     .herounit .wrapper .blurb {
       box-sizing: border-box;
-      padding: 2em 1em;
+      padding: 1em;
       margin-bottom: 1em; }
       @media screen and (min-width: 600px) {
         .herounit .wrapper .blurb {
           float: left;
-          width: 50%; } }
+          width: 50%;
+          padding: 2em 1em; } }
+      .herounit .wrapper .blurb p {
+        font-size: 1.1em; }
