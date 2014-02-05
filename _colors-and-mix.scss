@@ -2,13 +2,13 @@
 
 
 $offwhite: #f6f0e5;
-$fontshade: #302f2f;
 $circlesize: 200px;
 $circlesize-prime: ($circlesize + 20px);
 
 
 $fontshade: rgb(48, 47, 47);
-$fontshade-visited: rgb(79, 78, 78);
+$fontshade-visited: darken( $fontshade, 5% );
+$fontshade-hover: lighten( $fontshade, 10% );
 
 $orangemix: rgb(252, 245, 231);
 $orangemix-light: lighten( $orangemix, 10% );
