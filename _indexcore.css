@@ -7,18 +7,36 @@
       overflow: hidden; } }
   .herounit .wrapper {
     width: 70%;
-    max-width: 650px;
-    overflow: auto;
+    max-width: 660px;
     margin-right: auto;
     margin-left: auto; }
+    @media screen and (min-width: 600px) {
+      .herounit .wrapper {
+        overflow: hidden; }
+        .herounit .wrapper div {
+          float: left;
+          width: 50%; }
+          .herounit .wrapper div:nth-child(odd) {
+            clear: left; } }
+    .herounit .wrapper .arrow {
+      height: 100px;
+      width: 80px;
+      background-image: url("images/arrow_1.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 50%; }
+      @media screen and (max-width: 600px) {
+        .herounit .wrapper .arrow:nth-child(even) {
+          display: none; } }
     .herounit .wrapper .blurb {
       box-sizing: border-box;
-      padding: 1em;
+      padding: 2em 1em .3em;
       margin-bottom: 1em; }
       @media screen and (min-width: 600px) {
         .herounit .wrapper .blurb {
           float: left;
-          width: 50%;
-          padding: 2em 1em; } }
+          width: 50%; } }
       .herounit .wrapper .blurb p {
         font-size: 1.1em; }
+        .herounit .wrapper .blurb p span {
+          font-weight: bold; }
