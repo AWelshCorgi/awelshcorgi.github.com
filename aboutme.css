@@ -14,6 +14,9 @@ body {
   background: -moz-linear-gradient(left top 315deg, #fcf5e7, #578b9a);
   background: -webkit-gradient(linear, left top, right bottom, from(#fcf5e7), to(#578b9a)); }
 
+p {
+  line-height: 130%; }
+
 header {
   height: 480px;
   width: 100%;
@@ -185,7 +188,5 @@ header {
     text-align: center;
     font-size: 2em;
     margin-bottom: 5px; }
-  .innards p {
-    line-height: 130%; }
 
 /* if something isn't working, remember to save this again! */

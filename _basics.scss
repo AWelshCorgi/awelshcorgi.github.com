@@ -25,7 +25,7 @@ header{
 	overflow:auto;
 
 
-	@media (min-width: 600px){
+	@media (min-width: 730px){
 
 		height:300px;
 	}
@@ -40,7 +40,7 @@ header{
 	background-color: rgba($greenmix-dark,.4);
     box-shadow: 0px 0px 0px 16px  rgba($orangemix-light,.4);
     border: 16px solid #f1f1f1;
-    	@media (min-width: 600px){
+    	@media (min-width: 730px){
 
     		@include circle-base(100px);
 
@@ -68,7 +68,7 @@ header{
 				text-decoration: none;
 				color:$fontshade;
 				padding-top:40%;
-					@media (min-width: 600px){
+					@media (min-width: 730px){
 			  			font-size:16px;
 			  		}
 
@@ -86,7 +86,7 @@ header{
 		max-width:430px;
 		margin-right:auto;
 		margin-left:auto;
-		@media (min-width:600px){
+		@media (min-width:730px){
 			padding-left:25px;
 			margin-top:100px;
 		}
@@ -96,7 +96,7 @@ header{
 				text-align:center;
 				margin-top:30px;
 				font-size:35px;
-				@media (min-width:600px){
+				@media (min-width:730px){
 					margin-top:50px;
 				}
 			}
@@ -117,7 +117,7 @@ header{
 	border-top: 6px solid #f9f9f9;
 	border-bottom: 6px solid #f9f9f9;
 	padding-top:10px;
-	@media (min-width:600px){
+	@media (min-width:730px){
 		height:100px;
 	}
 
@@ -140,7 +140,7 @@ header{
 	@media(min-width:393px){
 		margin-top:auto
 	}
-	@media (min-width:600px){
+	@media (min-width:730px){
 		width:400px;
 		line-height:2em;
 		margin-top:30px;
