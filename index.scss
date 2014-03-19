@@ -1,4 +1,90 @@
-@import 'colors-and-mix';
-@import 'basics';
-@import 'indexcore';
-/* if something isn't working, remember to save this again! */
+.herounit{
+	height:100%;
+	width:100%;
+	background-color: rgb(252, 245, 231);
+	@media screen and (min-width: 44em) {
+		overflow: hidden;
+
+	}
+	.wrapper{
+		width:70%;
+		max-width:660px;
+		margin-right:auto;
+		margin-left:auto;
+		@media screen and (min-width: 730px){
+			overflow:hidden;
+		
+		}
+		.directions{
+			padding-top:10px;
+			height:130px;
+			width:100%;
+			max-width:90px;
+			margin-right:auto;
+			margin-left:auto;
+				@media (min-width: 730px){
+					max-width:400px;
+
+				}
+			.arrow{ 
+				height:120px;
+				width:80px;
+				box-sizing:border-box;
+				padding: 1em 1em .3em;
+				background-image: url("images/arrow.png");
+				background-repeat: no-repeat;
+				background-position:center;
+			
+				@media screen and (max-width: 730px){
+				&:nth-child(2){
+						display:none;
+					}
+				}
+	
+			
+				@media screen and (min-width: 400px){
+					&:nth-child(2){
+					float:right;
+					margin-right:15%;
+				}
+					&:nth-child(1){
+					margin-left:15%;
+					float:left;
+
+				}
+					
+					
+				}
+			
+
+			}
+		}
+
+		.desc{
+			min-height:250px;
+			@media screen and (max-width:600px){
+				min-height:300px;
+			}
+			.blurb{
+				min-width:250px;
+				box-sizing:border-box;
+			
+				padding: 1em 1em .3em;
+		  		margin-bottom: 1em;
+		  		@media screen and (min-width: 730px) {
+		    		float:left;
+		    		width: 50%;	
+		  		} 
+		  		p{
+		  			font-size: 1.1em;
+		  			span{
+		  				font-weight:bold;
+		  			}
+		  		}
+			}
+		}
+
+
+	}
+}
+
