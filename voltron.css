@@ -17,6 +17,39 @@ body {
 p {
   line-height: 130%; }
 
+.middlepattern {
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url("images/bedge_grunge/bedge_grunge_@2X.png");
+  padding-top: 40px;
+  margin-top: 20px;
+  border-top: 6px solid #f9f9f9; }
+  @media (min-width: 500px) {
+    .middlepattern {
+      margin-bottom: 10%;
+      width: 80%;
+      border: 8px solid #f9f9f9; } }
+
+.row {
+  margin-bottom: 45px;
+  height: 100%; }
+
+.innards {
+  -moz-box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5% 5% 5% 5%;
+  background-color: #95b9c2;
+  border: 10px solid #f9f9f9; }
+  .innards h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 5px; }
+
 header {
   height: 480px;
   width: 100%;
@@ -155,38 +188,5 @@ header {
   .smlinks a {
     padding-right: 10px;
     float: left; }
-
-.middlepattern {
-  height: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: url("images/bedge_grunge/bedge_grunge_@2X.png");
-  padding-top: 40px;
-  margin-top: 20px;
-  border-top: 6px solid #f9f9f9; }
-  @media (min-width: 500px) {
-    .middlepattern {
-      margin-bottom: 10%;
-      width: 80%;
-      border: 8px solid #f9f9f9; } }
-
-.row {
-  margin-bottom: 45px;
-  height: 100%; }
-
-.innards {
-  -moz-box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
-  width: 75%;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 5% 5% 5% 5%;
-  background-color: #95b9c2;
-  border: 10px solid #f9f9f9; }
-  .innards h2 {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 5px; }
 
 /*Save this again if things mysteriously dont work*/
