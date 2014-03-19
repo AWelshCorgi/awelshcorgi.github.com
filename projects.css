@@ -14,6 +14,9 @@ body {
   background: -moz-linear-gradient(left top 315deg, #fcf5e7, #578b9a);
   background: -webkit-gradient(linear, left top, right bottom, from(#fcf5e7), to(#578b9a)); }
 
+p {
+  line-height: 130%; }
+
 header {
   height: 480px;
   width: 100%;
@@ -21,7 +24,7 @@ header {
   background-image: url("images/bedge_grunge/bedge_grunge_@2X.png");
   background-repeat: repeat;
   overflow: auto; }
-  @media (min-width: 600px) {
+  @media (min-width: 730px) {
     header {
       height: 300px; } }
   header .circlelogo {
@@ -38,7 +41,7 @@ header {
     background-color: rgba(87, 139, 154, 0.4);
     box-shadow: 0px 0px 0px 16px rgba(255, 255, 255, 0.4);
     border: 16px solid #f1f1f1; }
-    @media (min-width: 600px) {
+    @media (min-width: 730px) {
       header .circlelogo {
         height: 100px;
         width: 100px;
@@ -67,7 +70,7 @@ header {
         text-decoration: none;
         color: #302f2f;
         padding-top: 40%; }
-        @media (min-width: 600px) {
+        @media (min-width: 730px) {
           header .circlelogo a span {
             font-size: 16px; } }
   header .capsule {
@@ -75,7 +78,7 @@ header {
     max-width: 430px;
     margin-right: auto;
     margin-left: auto; }
-    @media (min-width: 600px) {
+    @media (min-width: 730px) {
       header .capsule {
         padding-left: 25px;
         margin-top: 100px; } }
@@ -83,7 +86,7 @@ header {
       text-align: center;
       margin-top: 30px;
       font-size: 35px; }
-      @media (min-width: 600px) {
+      @media (min-width: 730px) {
         header .capsule h1 {
           margin-top: 50px; } }
 
@@ -93,7 +96,7 @@ header {
   border-top: 6px solid #f9f9f9;
   border-bottom: 6px solid #f9f9f9;
   padding-top: 10px; }
-  @media (min-width: 600px) {
+  @media (min-width: 730px) {
     .topnav {
       height: 100px; } }
 
@@ -107,7 +110,7 @@ header {
   @media (min-width: 393px) {
     .navprime {
       margin-top: auto; } }
-  @media (min-width: 600px) {
+  @media (min-width: 730px) {
     .navprime {
       width: 400px;
       line-height: 2em;
@@ -185,8 +188,6 @@ header {
     text-align: center;
     font-size: 2em;
     margin-bottom: 5px; }
-  .innards p {
-    line-height: 130%; }
 
 .circsite {
   margin-left: auto;
