@@ -34,27 +34,27 @@
 				background-image: url("images/arrow.png");
 				background-repeat: no-repeat;
 				background-position:center;
-			
-				@media screen and (max-width: 730px){
-				&:nth-child(2){
-						display:none;
-					}
-				}
-	
-			
-				@media screen and (min-width: 400px){
 					&:nth-child(2){
 					float:right;
 					margin-right:15%;
+					@media screen and (max-width: 729px){
+			
+						display:none;
+					
+				}
 				}
 					&:nth-child(1){
-					margin-left:15%;
 					float:left;
+					@media screen and (min-width:730px){
+					margin-left:15%;
+				}
 
 				}
 					
-					
-				}
+			
+				
+	
+						
 			
 
 			}
