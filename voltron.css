@@ -4,6 +4,9 @@
   src: url("fonts/Junction/webfonts/Junction-webfont.eot");
   src: local("Junction"), local("Junction"), url("fonts/Junction/webfonts/Junction-webfont.woff") format("woff"), url("fonts/Junction/webfonts/Junction-webfont.otf") format("opentype"), url("fonts/Junction/webfonts/Junction-webfont.svg") format("svg"), url("fonts/Junction/webfonts/Junction-webfont.ttf") format("true-type font"); }
 
+html body {
+  height: 100%; }
+
 body {
   height: 100%;
   width: 100%;
@@ -14,11 +17,32 @@ body {
   background: -moz-linear-gradient(left top 315deg, #fcf5e7, #578b9a);
   background: -webkit-gradient(linear, left top, right bottom, from(#fcf5e7), to(#578b9a)); }
 
+.wrap {
+  min-height: 100%; }
+
+footer {
+  position: relative;
+  margin-top: -150px;
+  /* negative value of footer height */
+  height: 150px;
+  clear: both; }
+
+/*Opera Fix*/
+body:before {
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px; }
+
 p {
   line-height: 130%; }
 
 .middlepattern {
   height: 100%;
+  overflow: auto;
+  padding-bottom: 150px;
+  /* must be same height as the footer */
   margin-right: auto;
   margin-left: auto;
   background-image: url("images/bedge_grunge/bedge_grunge_@2X.png");
@@ -76,12 +100,12 @@ header {
     border: 16px solid #f1f1f1; }
     @media (min-width: 730px) {
       header .circlelogo {
-        height: 100px;
-        width: 100px;
+        height: 120px;
+        width: 120px;
         border-radius: 50%;
         -moz-border-radius: 50%;
         -webkit-border-radius: 50%;
-        margin-top: 40px;
+        margin-top: 42px;
         margin-left: 30px;
         float: left;
         box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.4);
@@ -102,10 +126,10 @@ header {
         font-size: 23px;
         text-decoration: none;
         color: #302f2f;
-        padding-top: 40%; }
+        padding-top: 42%; }
         @media (min-width: 730px) {
           header .circlelogo a span {
-            font-size: 16px; } }
+            font-size: 19px; } }
   header .capsule {
     width: 90%;
     max-width: 430px;
@@ -176,17 +200,11 @@ header {
   float: right;
   display: block;
   text-align: left;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  margin-bottom: 5px;
-  background-color: white; }
-  @media (min-width: 393px) {
-    .smlinks {
-      width: 70px;
-      line-height: 1.5em; } }
-  .smlinks a {
-    padding-right: 10px;
-    float: left; }
+  background-color: #fcf5e7;
+  padding: 5px;
+  margin-bottom: 5px; }
+  .smlinks li p {
+    font-size: .7em;
+    margin-bottom: 5px; }
 
 /*Save this again if things mysteriously dont work*/

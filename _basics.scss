@@ -1,3 +1,6 @@
+html body {
+	height: 100%;
+}
 body {
     height:100%;
 	width:100%;
@@ -9,6 +12,32 @@ body {
 	background: -webkit-gradient(linear, left top, right bottom, from($orangemix), to($greenmix-dark));
 		
 }
+
+
+.wrap {
+	min-height: 100%;
+}
+
+
+
+footer {
+	position: relative;
+	margin-top: -150px; 
+	/* negative value of footer height */
+	height: 150px;
+	clear:both;} 
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;
+}
+
+
+
 p{ 
 	line-height: 130%;
 
@@ -16,6 +45,9 @@ p{
 
 .middlepattern{
 	height:100%;
+	overflow:auto;
+	padding-bottom: 150px; 
+	/* must be same height as the footer */
 	margin-right:auto;
 	margin-left:auto;
 	background-image: url('images/bedge_grunge/bedge_grunge_@2X.png');
