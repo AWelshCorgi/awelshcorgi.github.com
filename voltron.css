@@ -44,14 +44,13 @@ p {
   padding-bottom: 20px;
   background-image: url("images/bedge_grunge/bedge_grunge_@2X.png");
   padding-top: 40px;
-  margin-top: 20px;
-  margin-bottom: 70px;
-  border-top: 6px solid #f9f9f9; }
+  margin-bottom: 70px; }
   @media (min-width: 500px) {
     .middlepattern {
       margin-bottom: 20%;
-      width: 80%;
-      border: 8px solid #f9f9f9; } }
+      width: 90%;
+      border: solid  #f9f9f9;
+      border-width: 0px 8px 8px 8px; } }
 
 .row {
   margin-bottom: 45px;
@@ -103,8 +102,8 @@ header {
   overflow: auto; }
   @media (min-width: 730px) {
     header {
-      padding-top: 20px;
-      height: 350px; } }
+      padding-top: 25px;
+      height: 300px; } }
   header .circlelogo {
     height: 175px;
     width: 175px;
@@ -118,10 +117,12 @@ header {
     background-color: rgba(87, 139, 154, 0.4);
     box-shadow: 0px 0px 0px 16px rgba(255, 255, 255, 0.4);
     border: 16px solid #f1f1f1; }
+    header .circlelogo:hover {
+      background-color: rgba(87, 139, 154, 0.7); }
     @media (min-width: 730px) {
       header .circlelogo {
-        height: 140px;
-        width: 140px;
+        height: 125px;
+        width: 125px;
         border-radius: 50%;
         -moz-border-radius: 50%;
         -webkit-border-radius: 50%;
@@ -135,20 +136,19 @@ header {
       header .circlelogo a span {
         box-sizing: border-box;
         position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        z-index: 1;
+        width: 110%;
+        height: 110%;
+        right: -7px;
         background-image: url("images/empty.gif");
         text-align: center;
-        font-size: 23px;
+        font-size: 21px;
         text-decoration: none;
         color: #302f2f;
         padding-top: 42%; }
         @media (min-width: 730px) {
           header .circlelogo a span {
-            font-size: 19px; } }
+            font-size: 15px;
+            right: -5px; } }
   header .capsule {
     width: 90%;
     max-width: 430px;
@@ -157,7 +157,7 @@ header {
     padding-top: 15px; }
     @media (min-width: 730px) {
       header .capsule {
-        padding-top: 85px;
+        padding-top: 40px;
         padding-left: 15px; } }
     header .capsule h1 {
       text-align: center;
@@ -180,7 +180,7 @@ header {
 .navprime {
   margin-right: auto;
   margin-left: auto;
-  width: 130px;
+  width: 140px;
   line-height: 3em; }
   @media (min-width: 730px) {
     .navprime {
@@ -192,33 +192,39 @@ header {
     text-align: center;
     list-style-type: none;
     font-size: 20pt; }
-    @media (min-width: 729px) {
+    @media (min-width: 730px) {
       .navprime li {
         display: inline; }
         .navprime li:first-of-type {
-          margin-left: 10%;
+          margin-left: 8%;
           margin-right: 100px; } }
     .navprime li a {
-      text-decoration: none; }
+      text-decoration: none;
+      padding: 3px; }
       .navprime li a:link {
         color: #302f2f; }
       .navprime li a:visited {
-        color: #232222; }
+        color: black; }
       .navprime li a:hover {
-        color: #4a4848; }
+        color: #646161;
+        text-decoration: underline; }
 
-.smlinks {
-  -moz-box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
-  float: right;
-  display: block;
-  text-align: left;
-  background-color: #fcf5e7;
-  padding: 5px;
-  margin-bottom: 5px; }
-  .smlinks li p {
-    font-size: .7em;
-    margin-bottom: 5px; }
+/*
 
+
+.smlinks{
+	@include shadow-palette(2px);
+	float:right;
+	display:block;
+	text-align:left;
+	background-color:$orangemix;
+	padding:5px;
+	margin-bottom:5px;
+		li p{
+			font-size:.7em;
+			margin-bottom:5px;
+		}
+
+		}
+	*/
 /*Save this again if things mysteriously dont work*/

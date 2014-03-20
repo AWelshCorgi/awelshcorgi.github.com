@@ -8,8 +8,8 @@ $circlesize-prime: ($circlesize + 20px);
 
 
 $fontshade: rgb(48, 47, 47);
-$fontshade-visited: darken( $fontshade, 5% );
-$fontshade-hover: lighten( $fontshade, 10% );
+$fontshade-visited: darken( $fontshade, 20% );
+$fontshade-hover: lighten( $fontshade, 20% );
 
 $orangemix: rgb(252, 245, 231);
 $orangemix-light: lighten( $orangemix, 10% );

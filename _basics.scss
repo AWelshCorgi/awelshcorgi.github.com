@@ -48,15 +48,14 @@ p{
 	padding-bottom:20px;
 	background-image: url('images/bedge_grunge/bedge_grunge_@2X.png');
 	padding-top:40px;
-	margin-top:20px;
 	margin-bottom:70px;
-	border-top: 6px solid #f9f9f9;
 
 
 	@media (min-width: 500px){
 		margin-bottom:20%;
-		width:80%;
-		border: 8px solid #f9f9f9;
+		width:90%;
+		border: solid  #f9f9f9;
+		border-width: 0px 8px 8px 8px;
 	}
 
 }
