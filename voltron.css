@@ -89,8 +89,36 @@ footer {
   margin-top: -70px;
   background-color: #456e79;
   /* negative value of footer height */
-  height: 70px;
-  clear: both; }
+  height: 80px;
+  clear: both;
+  border-top: 4px solid #fcf5e7; }
+  footer .smlinks {
+    -moz-box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: left;
+    background-color: #fcf5e7;
+    padding: 5px 0px 5px 13px;
+    margin-bottom: 5px; }
+    footer .smlinks a {
+      padding: 20px 5px 0px 5px; }
+      footer .smlinks a:nth-child(2) {
+        margin-right: 15px;
+        margin-left: 17px; }
+      footer .smlinks a .mediaicon {
+        width: 20%;
+        height: 20%; }
+      footer .smlinks a:nth-child(3) {
+        padding: 5px 5px 0px 8px;
+        border-left: 2px solid #646161;
+        color: #302f2f;
+        font-size: 2.6em; }
+        footer .smlinks a:nth-child(3):hover {
+          color: #646161; }
 
 header {
   height: 460px;
@@ -134,7 +162,6 @@ header {
       display: block;
       height: 100px; }
       header .circlelogo a span {
-        box-sizing: border-box;
         position: absolute;
         width: 110%;
         height: 110%;
@@ -209,22 +236,4 @@ header {
         color: #646161;
         text-decoration: underline; }
 
-/*
-
-
-.smlinks{
-	@include shadow-palette(2px);
-	float:right;
-	display:block;
-	text-align:left;
-	background-color:$orangemix;
-	padding:5px;
-	margin-bottom:5px;
-		li p{
-			font-size:.7em;
-			margin-bottom:5px;
-		}
-
-		}
-	*/
 /*Save this again if things mysteriously dont work*/

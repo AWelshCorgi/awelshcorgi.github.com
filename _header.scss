@@ -39,7 +39,7 @@ header{
 			display:block;
 			height:100px;
 	  		span{
-	  			box-sizing:border-box;
+
 	  			position:absolute;
 				width:110%;
 				height:110%;
@@ -163,24 +163,9 @@ header{
 
 
 
-/*
 
 
-.smlinks{
-	@include shadow-palette(2px);
-	float:right;
-	display:block;
-	text-align:left;
-	background-color:$orangemix;
-	padding:5px;
-	margin-bottom:5px;
-		li p{
-			font-size:.7em;
-			margin-bottom:5px;
-		}
 
-		}
-	*/
 
 
 
