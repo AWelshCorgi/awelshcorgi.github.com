@@ -94,7 +94,7 @@ footer {
   clear: both; }
 
 header {
-  height: 480px;
+  height: 460px;
   width: 100%;
   padding-top: 40px;
   background-color: #f9f9f9;
@@ -103,6 +103,7 @@ header {
   overflow: auto; }
   @media (min-width: 730px) {
     header {
+      padding-top: 20px;
       height: 350px; } }
   header .circlelogo {
     height: 175px;
@@ -156,7 +157,7 @@ header {
     padding-top: 15px; }
     @media (min-width: 730px) {
       header .capsule {
-        padding-top: 75px;
+        padding-top: 85px;
         padding-left: 15px; } }
     header .capsule h1 {
       text-align: center;
