@@ -1,3 +1,6 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
 html body {
 	height: 100%;
 }
@@ -20,12 +23,6 @@ body {
 
 
 
-footer {
-	position: relative;
-	margin-top: -150px; 
-	/* negative value of footer height */
-	height: 150px;
-	clear:both;} 
 
 /*Opera Fix*/
 body:before {
@@ -46,18 +43,18 @@ p{
 .middlepattern{
 	height:100%;
 	overflow:auto;
-	padding-bottom: 150px; 
-	/* must be same height as the footer */
 	margin-right:auto;
 	margin-left:auto;
+	padding-bottom:20px;
 	background-image: url('images/bedge_grunge/bedge_grunge_@2X.png');
 	padding-top:40px;
 	margin-top:20px;
+	margin-bottom:70px;
 	border-top: 6px solid #f9f9f9;
 
 
 	@media (min-width: 500px){
-		margin-bottom:10%;
+		margin-bottom:20%;
 		width:80%;
 		border: 8px solid #f9f9f9;
 	}
@@ -89,3 +86,26 @@ p{
 	}
 
 }
+
+.circsite{
+	margin-left:auto;
+	margin-right:auto;
+
+	@include circle-base(200px);
+	background-image: url("http://placekitten.com/200/200");
+	margin-bottom:5px; 
+    box-shadow: 0px 0px 0px 10px  #f9f9f9;
+   	border: 10px solid $greenmix-light;
+  
+
+}
+
+
+
+footer {
+	position: relative;
+	margin-top: -70px; 
+	background-color:$greenmix-darker;
+	/* negative value of footer height */
+	height: 70px;
+	clear:both;} 

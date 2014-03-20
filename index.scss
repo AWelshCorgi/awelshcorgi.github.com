@@ -1,16 +1,20 @@
 .herounit{
-	height:100%;
-	width:100%;
+
 	background-color: rgb(252, 245, 231);
-	@media screen and (min-width: 44em) {
-		overflow: hidden;
+	overflow:auto;
+	overflow: hidden;
 
 	}
+	@media screen and (min-width: 600px){
+			padding-bottom:0px;
+		}
 	.wrapper{
 		width:70%;
 		max-width:660px;
+		padding-bottom:50px;
 		margin-right:auto;
 		margin-left:auto;
+	
 		@media screen and (min-width: 730px){
 			overflow:hidden;
 		
@@ -61,10 +65,8 @@
 		}
 
 		.desc{
-			min-height:250px;
-			@media screen and (max-width:600px){
-				min-height:300px;
-			}
+			min-height:290px;
+			
 			.blurb{
 				min-width:250px;
 				box-sizing:border-box;
