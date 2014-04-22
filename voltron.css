@@ -15,10 +15,11 @@ html body {
 body {
   height: 100%;
   width: 100%;
-  background-image: url("images/leather_1/leather_1.png");
   overflow: auto;
   font-family: "Junction";
   color: #302f2f;
+  background: linear-gradient(left top 315deg, #fcf5e7, #578b9a);
+  background: -o-linear-gradient(left top 315deg, #fcf5e7, #578b9a);
   background: -moz-linear-gradient(left top 315deg, #fcf5e7, #578b9a);
   background: -webkit-gradient(linear, left top, right bottom, from(#fcf5e7), to(#578b9a)); }
 
